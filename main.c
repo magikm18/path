@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
                 strcat(p, optarg);
                 break;
             case 'h':
-                printf("Usage: path [option] [--] command\n\n  -a\n\tshow all possible results (instead of just the first result, which is the default behaviour\n  -d /path/to/directory\n\tinclude the specified path in the search\n  -q\n\tquiet mode (never post 'not found' line)\n  -h\n\tshow this help\n  -v\n\tverbose mode (list every directory that is searched and show if a search fails)\n");
+                printf("Usage: path [option] [--] command\n\n  -a\n\tshow all possible results (instead of just the first result, which is the default behaviour)\n  -d /path/to/directory[:/path/to/drectory2[:/path/to/drictory3 ...]]\n\tinclude the specified directory/directories in the search\n  -q\n\tquiet mode (do not print 'not found' line if the command cannot be found)\n  -h\n\tshow help\n  -v\n\tverbose mode (list every directory that is searched and show if a search fails)\n");
                 return 0;
             case 'q':
                 _q = true;
