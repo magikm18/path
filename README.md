@@ -1,6 +1,6 @@
 # path
 
-`path` finds a valid file in the $PATH variable; it more or less implements the functionality of `write`.
+`path` finds a valid file in the $PATH variable; it more or less implements the functionality of `which`.
 
 ## Synopsis
 
